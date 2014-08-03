@@ -1,0 +1,130 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #FF6600;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: white;
+}
+.sec {
+	float:left;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	text-transform: uppercase;
+}
+.logo {
+	width: 30%;
+	
+}
+.nav {
+	width: 70%;
+	text-transform: uppercase;
+}
+.navlist li {
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	padding: 50px;
+	text-decoration: bold;
+	color: #FF6600;
+}
+.body-container {
+	position: relative;
+	clear: both;
+	display: block;
+	background: #00FFFF;
+	color: black;
+}
+.marquee {
+	text-align: center;
+	padding-top: 80px;
+	height: 320px;
+	text-transform: uppercase;
+
+}
+.readmore {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	border-spacing: 10px;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+.readmore:hover{
+	background-color: red;
+	color: yellow;
+}
+.contact-container {
+	background-color: orange;
+	color:white;
+}
+.contact {
+	padding: 30px;
+	text-align: center;
+}
+.social li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+.navitem:hover {
+	background-color: black;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: #FB6648;
+}
+h1 {
+	font-size: 56px;
+}
+h2 {
+	font-size: 33px;
+}
+h3 {
+	font-size: 20px;
+}
+hr {
+	background: black;
+	border: 0;
+	height: 2px;
+	width:40%;
+}
+
+
+ 
+
+table.one {
+    position:relative;
+    float:left;
+   }
+
+  table.two {
+    position:relative;
+    float:right;
+  }
+
+
+table.three {
+	position:relative;
+	float:left;
+}
+
+table.four {
+  position:relative;
+  float:right;
+  }
+
+
+
